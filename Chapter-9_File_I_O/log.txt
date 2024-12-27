@@ -1,0 +1,6 @@
+Directory Creation: Added a line to ensure the tables directory exists using os.makedirs().
+File Naming: Changed the file name inside the open function to use the correct value of n for each table (table_{n}.txt).
+Function Call: Moved the function call python to generate tables from 2 to 20 outside of the genMul() function to avoid infinite recursion.
+How it works: Python generated
+It generates a multiplication table for each number from 2 to 20.
+Each table is saved in a separate file inside the tables/ directory.
